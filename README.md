@@ -123,26 +123,7 @@ source venv/bin/activate  # Unix/MacOS
 # Start Streamlit
 cd frontend
 streamlit run app.py
-📁 Project Structure
-Copyproject/
-├── backend/
-│   ├── main.py           # FastAPI application entry point
-│   ├── models.py         # Database models
-│   ├── schemas.py        # Pydantic schemas
-│   ├── database.py       # Database connection
-│   ├── services/
-│   │   ├── monitor_service.py    # Monitoring logic
-│   │   └── security_service.py   # Security analysis
-│   ├── routes/
-│   │   ├── monitor.py    # Monitoring endpoints
-│   │   └── website.py    # Website management
-│   └── alembic/          # Database migrations
-├── frontend/
-│   ├── app.py           # Streamlit dashboard
-│   └── components/      # UI components
-├── tests/               # Test files
-├── requirements.txt     # Project dependencies
-└── .env                # Environment variables
+
 🔧 Development Setup
 
 Install Development Dependencies
